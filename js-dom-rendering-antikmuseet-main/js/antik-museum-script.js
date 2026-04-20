@@ -182,7 +182,7 @@ function displayExhibitions(exhibitionList) {
       </article>
   `;
     })
-    .join(""); // Her samler man det hele med joint("") til en samlet html-streng
+    .join(""); // Her samler man det hele med joint("") til en samlet html-streng 
 
   exhibitionContainer.innerHTML = HTML;
 }
